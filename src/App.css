@@ -2,8 +2,10 @@
 
 body,
 textarea,
+input,
+button,
 select {
-  font-family: 'CookieRun Regular';
+  font-family: 'Hyundai Motor Harmony M';
 }
 
 .App {

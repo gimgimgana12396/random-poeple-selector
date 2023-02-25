@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ff246df0.css",
+    "main.js": "/static/js/main.fde638d8.js",
+    "static/js/787.7319718f.chunk.js": "/static/js/787.7319718f.chunk.js",
+    "static/media/Hyundai Motor Harmony L.ttf": "/static/media/Hyundai Motor Harmony L.ad275872d8c851955151.ttf",
+    "static/media/Hyundai Motor Harmony M.ttf": "/static/media/Hyundai Motor Harmony M.0a8bf6183f6054186d6e.ttf",
+    "static/media/Hyundai Motor Harmony B.ttf": "/static/media/Hyundai Motor Harmony B.801733bfa1ec393c6ed5.ttf",
+    "index.html": "/index.html",
+    "main.ff246df0.css.map": "/static/css/main.ff246df0.css.map",
+    "main.fde638d8.js.map": "/static/js/main.fde638d8.js.map",
+    "787.7319718f.chunk.js.map": "/static/js/787.7319718f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ff246df0.css",
+    "static/js/main.fde638d8.js"
+  ]
+}

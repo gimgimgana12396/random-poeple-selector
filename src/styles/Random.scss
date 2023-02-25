@@ -4,10 +4,9 @@
   height: 500px;
   width: 400px;
   padding: 10px;
-  border: 2px solid $color;
+  border: 4px solid $color;
   border-radius: 10px;
   font-size: 20px;
-  margin-bottom: 30px;
 }
 
 .input-area {
@@ -16,33 +15,82 @@
 
   .input-wrapper {
     display: flex;
+
+    .input-filed {
+      @include border-template(#d391ff);
+    }
+
+    .button-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 20px;
+
+      button {
+        width: 70px;
+        height: 50px;
+        font-size: 15px;
+        background-color: initial;
+        border: 1px solid black;
+      }
+
+      button:hover {
+        background-color: $mainColor;
+      }
+    }
   }
 
   textarea {
-    @include border-template(#d391ff);
+    width: 100%;
+    height: 87%;
     resize: none;
+    @include none-border-input;
+    line-height: 1.3;
   }
 
   select {
-    font-size: 20px;
     width: 70px;
     height: 50px;
-    margin: 20px;
+    margin-bottom: 20px;
     padding: 10px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  input {
+    @include none-border-input;
+  }
+
+  button + button {
+    margin-top: 20px;
+  }
+
+  .result-title {
+    width: 87%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-bottom: 3px solid rgb(188, 188, 188);
   }
 
   .result {
     @include border-template(#8f6dff);
     white-space: break-spaces;
 
-    .result-title {
-      border-bottom: 1px solid rgb(188, 188, 188);
-      padding: 10px;
-      margin-bottom: 10px;
-    }
-
     .result-text {
       line-height: 2rem;
+      text-align: left;
+      display: flex;
+      justify-content: center;
     }
+  }
+
+  .remade-text {
+    white-space: break-spaces;
+    text-align: start;
+    display: flex;
+    justify-content: center;
+    line-height: 1.3;
+    tab-size: 9;
   }
 }
