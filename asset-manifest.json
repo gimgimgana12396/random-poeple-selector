@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/random-poeple-selector/static/css/main.5681d887.css",
+    "main.js": "/random-poeple-selector/static/js/main.39c98221.js",
+    "static/js/787.7319718f.chunk.js": "/random-poeple-selector/static/js/787.7319718f.chunk.js",
+    "static/media/Hyundai Motor Harmony L.ttf": "/random-poeple-selector/static/media/Hyundai Motor Harmony L.ad275872d8c851955151.ttf",
+    "static/media/Hyundai Motor Harmony M.ttf": "/random-poeple-selector/static/media/Hyundai Motor Harmony M.0a8bf6183f6054186d6e.ttf",
+    "static/media/Hyundai Motor Harmony B.ttf": "/random-poeple-selector/static/media/Hyundai Motor Harmony B.801733bfa1ec393c6ed5.ttf",
+    "index.html": "/random-poeple-selector/index.html",
+    "main.5681d887.css.map": "/random-poeple-selector/static/css/main.5681d887.css.map",
+    "main.39c98221.js.map": "/random-poeple-selector/static/js/main.39c98221.js.map",
+    "787.7319718f.chunk.js.map": "/random-poeple-selector/static/js/787.7319718f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5681d887.css",
+    "static/js/main.39c98221.js"
+  ]
+}
